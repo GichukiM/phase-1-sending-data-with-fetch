@@ -1,30 +1,466 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
-      "id": 1
+      "id": "1"
     },
     {
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
-      "id": 2
+      "id": "2"
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
-      "id": 1
+      "id": "1"
     },
     {
       "catName": "Gunnar",
       "catBreed": "American Shorthair",
-      "id": 2
+      "id": "2"
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "id": "4269",
+      "name": "Gichuki",
+      "email": "Muchiri"
+    },
+    {
+      "id": "4d46",
+      "name": "Gichuki",
+      "email": "Muchiri"
+    },
+    {
+      "id": "7ae2",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "25ca",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "0453",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "455e",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "41d1",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "45d1",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "5179",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "40b0",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "8025",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "2e04",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "64bd",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "9ceb",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "100f",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "993c",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "1c2a",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "d315",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "92e8",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "c0c6",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "ce09",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "0727",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "ff2e",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "cb42",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "4916",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "1a90",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "3648",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "a3a6",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "713c",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "f3bb",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "bb2d",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "3977",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "7d32",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "2f2f",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "f6ee",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "6c9e",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "7b96",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "be4f",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "a369",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "321b",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "775f",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "302f",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "62da",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "416c",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "78c7",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "966e",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "f5ff",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "a6d8",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "94ba",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "8eeb",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "ac83",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "d46f",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "af43",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "beb1",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "cade",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "f938",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "3fd5",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "e896",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "5292",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "03a1",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "5e5f",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "a8b9",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "ca3d",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "a7ce",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "3a0e",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "0dfa",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "d0d4",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "6d06",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "e483",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "6fa4",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "2a26",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "cc22",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "be3d",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "c857",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "383e",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "df41",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "9319",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "d375",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "0d9a",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "b6a7",
+      "name": "Gichuki",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "4f93",
+      "email": "Muchiri.gmail.com"
+    },
+    {
+      "id": "2e85"
+    },
+    {
+      "id": "c508"
+    },
+    {
+      "id": "f1bd"
+    },
+    {
+      "id": "ac74"
+    },
+    {
+      "id": "e7b3"
+    },
+    {
+      "id": "058c"
+    },
+    {
+      "id": "9105"
+    },
+    {
+      "id": "3322"
+    },
+    {
+      "id": "83d0"
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": "9000"
+    }
+  ]
 }
